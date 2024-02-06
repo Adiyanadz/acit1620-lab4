@@ -17,7 +17,6 @@ li{
     background-color: rgb(31, 68, 152);
     border: 5px;
     border-color: aquamarine;
-    border-radius: 20px;
     box-shadow: 2px 2px 3px grey;
     transition: transform 0.75s ease-in-out;
     transform: scale(1);
@@ -31,10 +30,31 @@ h3{
 h3:hover{
     color:white;
 }
+section{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(0.90);
+}
+
+li:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease-in-out;
+    color: black;
+    background-color: rgb(31, 68, 152);
+    box-shadow: 3px 3px 5px grey;
+}
+
+section:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1);
+    background-color: rgb(31, 68, 152);
+    color: white;
+
+}
 
 footer{
     text-align: center;
     border-top: 5px solid;
 }
+
 
 
