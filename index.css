@@ -23,5 +23,18 @@ li{
     transform: scale(1);
 }
 
+h3{
+    color: rgb(31, 68, 152);
+    
+}
+
+h3:hover{
+    color:white;
+}
+
+footer{
+    text-align: center;
+    border-top: 5px solid;
+}
 
 
