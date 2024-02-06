@@ -1,0 +1,25 @@
+h1{
+    background-color: rgb(31, 68, 152);
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    text-align: center;
+    color: white;
+}
+
+li{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: inline-flex;
+    background-color: rgb(31, 68, 152);
+    border: 5px;
+    border-color: aquamarine;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px grey;
+    transition: transform 0.75s ease-in-out;
+    transform: scale(1);
+}
+
